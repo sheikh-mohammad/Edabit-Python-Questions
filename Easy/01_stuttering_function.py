@@ -1,7 +1,7 @@
-def stutter(word):
+def stutter(word:str)->str:
     word = word.lower()
-    print(f"{word[0:2]}... {word[0:2]}... {word}?")
+    return f"{word[0:2]}... {word[0:2]}... {word}?"
 
-stutter("incredible")
-stutter("enthusiastic")
-stutter("outstanding")
+print(stutter("incredible"))
+print(stutter("enthusiastic"))
+print(stutter("outstanding"))
