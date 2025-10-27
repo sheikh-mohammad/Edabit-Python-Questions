@@ -8,5 +8,10 @@ dependencies = []
 
 [tool.uv.workspace]
 members = [
+    "01_Very_Easy",
+    "02_Easy",
     "03_Medium",
+    "04_Hard",
+    "05_Very_Hard",
+    "06_Expert",
 ]
