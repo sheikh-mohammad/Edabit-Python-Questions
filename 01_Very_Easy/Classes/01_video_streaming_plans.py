@@ -1,29 +1,32 @@
 class BasicPlan:
-    can_stream = True
-    can_download = True
-    has_SD = True
-    has_HD = False
-    has_UHD = False
-    num_of_devices = 1
-    price = '$8.99'
-        
+    can_stream: bool = True
+    can_download: bool = True
+    has_SD: bool = True
+    has_HD: bool = False
+    has_UHD: bool = False
+    num_of_devices: int = 1
+    price: str = "$8.99"
+
+
 class StandardPlan:
-    can_stream = True
-    can_download = True
-    has_SD = True
-    has_HD = True
-    has_UHD = False
-    num_of_devices = 2
-    price = '$12.99'
-        
+    can_stream: bool = True
+    can_download: bool = True
+    has_SD: bool = True
+    has_HD: bool = True
+    has_UHD: bool = False
+    num_of_devices: int = 2
+    price: str = "$12.99"
+
+
 class PremiumPlan:
-    can_stream = True
-    can_download = True
-    has_SD = True
-    has_HD = True
-    has_UHD = True
-    num_of_devices = 4
-    price = '$15.99'
+    can_stream: bool = True
+    can_download: bool = True
+    has_SD: bool = True
+    has_HD: bool = True
+    has_UHD: bool = True
+    num_of_devices: int = 4
+    price: str = "$15.99"
+
 
 print(BasicPlan.has_SD)
 print(PremiumPlan.has_SD)
