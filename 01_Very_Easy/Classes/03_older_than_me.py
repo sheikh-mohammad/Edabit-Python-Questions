@@ -1,7 +1,7 @@
 class Person:
     def __init__(self, name: str, age: int) -> None:
-        self.name = name
-        self.age = age
+        self.name: str = name
+        self.age: int = age
 
     def compare_age(self, other) -> str:
         if self.age > other.age:
