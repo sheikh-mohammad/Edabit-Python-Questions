@@ -16,4 +16,5 @@ members = [
     "06_Expert",
     "05_Very Hard",
     "01_Very_Easy/General",
+    "01_Very_Easy/Classes",
 ]
