@@ -16,6 +16,7 @@ members = [
     "02_Easy/Control_Flow",
     "03_Medium",
     "03_Medium/Conditions",
+    "03_Medium/Loops",
     "04_Hard",
     "05_Very_Hard",
     "06_Expert",
