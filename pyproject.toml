@@ -13,6 +13,7 @@ members = [
     "01_Very_Easy/Classes",
     "02_Easy",
     "02_Easy/General",
+    "02_Easy/Control_Flow",
     "03_Medium",
     "03_Medium/Conditions",
     "04_Hard",
