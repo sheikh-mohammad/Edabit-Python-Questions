@@ -1,7 +1,7 @@
 from math import sqrt
 
 def quadratic_equation(a, b, c):
-    x = (-b + sqrt((b**2) - (4 * a * c))) / 2 * a
+    x = int((-b + sqrt((b**2) - (4 * a * c))) / (2 * a))
     quad = (a * (x**2)) + b * x + c
     
     if (quad == 0):
