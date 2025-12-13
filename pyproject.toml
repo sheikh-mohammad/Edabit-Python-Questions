@@ -11,6 +11,7 @@ members = [
     "01_Very_Easy",
     "01_Very_Easy/General",
     "01_Very_Easy/Classes",
+    "01_Very_Easy/Conditions",
     "02_Easy",
     "02_Easy/General",
     "02_Easy/Control_Flow",
@@ -20,5 +21,4 @@ members = [
     "04_Hard",
     "05_Very_Hard",
     "06_Expert",
-    "05_Very Hard",
 ]
